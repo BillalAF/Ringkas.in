@@ -5,9 +5,8 @@ Aplikasi web berbasis PHP untuk memperpendek tautan panjang menjadi URL ringkas 
 ## Fitur Utama
 
 * Pemendekan tautan panjang (URL shortening) secara otomatis dengan kode unik acak.
-* Dukungan kode tautan kustom (custom alias) sesuai keinginan pengguna [SESUAIKAN JIKA FITUR INI ADA].
 * Pengalihan (HTTP redirect) otomatis dari tautan pendek ke URL asli.
-* Penghitungan jumlah klik (click counter) pada setiap tautan yang dibuat [SESUAIKAN JIKA FITUR INI ADA].
+* Penghitungan jumlah klik (click counter) pada setiap tautan yang dibuat.
 * Validasi format URL untuk mencegah tautan rusak atau tidak valid.
 
 ## Teknologi yang Digunakan
@@ -15,13 +14,13 @@ Aplikasi web berbasis PHP untuk memperpendek tautan panjang menjadi URL ringkas 
 * **Backend:** PHP [ISI VERSI, misal: 8.1+]
 * **Database:** MySQL / MariaDB
 * **Web Server:** Apache (dengan dukungan `mod_rewrite`) atau Nginx
-* **Frontend:** HTML, CSS, JavaScript [ISI FRAMEWORK JIKA ADA, misal: Tailwind CSS / Bootstrap]
+* **Frontend:** HTML, CSS, JavaScript, BulmaCSS
 
 ## Prasyarat Sistem
 
 Sebelum menjalankan proyek ini di komputer lokal atau server, pastikan kamu sudah menyiapkan:
 
-1. PHP versi [ISI VERSI] atau lebih baru beserta ekstensi `mysqli` atau `pdo_mysql`.
+1. PHP versi 8 atau lebih baru beserta ekstensi `mysqli` atau `pdo_mysql`.
 2. Database server MySQL atau MariaDB.
 3. Web server (Apache dengan `mod_rewrite` aktif) atau PHP built-in server untuk pengujian lokal.
 
